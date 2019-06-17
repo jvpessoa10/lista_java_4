@@ -1,4 +1,4 @@
-package school.cesar.Q1;
+package school.cesar.exceptions;
 
 public class InvalidParameterException extends Exception {
 

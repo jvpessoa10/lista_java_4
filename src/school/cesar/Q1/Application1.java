@@ -1,5 +1,7 @@
 package school.cesar.Q1;
 
+import school.cesar.exceptions.InvalidParameterException;
+
 import java.util.List;
 import java.util.Scanner;
 

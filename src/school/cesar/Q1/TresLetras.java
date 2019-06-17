@@ -1,5 +1,7 @@
 package school.cesar.Q1;
 
+import school.cesar.exceptions.InvalidParameterException;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ public class TresLetras {
     private final int N_SPACES = 3;
 
 
-    public List<String> getTreeWordsCombinations(String word )throws InvalidParameterException{
+    public List<String> getTreeWordsCombinations(String word )throws InvalidParameterException {
 
         if(word.length() != 5 || !word.matches(".*[a-z].*")) {
             throw  new InvalidParameterException("Input inválido: " + word);
